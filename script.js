@@ -1,6 +1,7 @@
+let data;
+
 fetch('.data.json')
   .then(response => response.json())
-  .then(data => {
-    console.log(data.entities['test-file1'].title);
-});
+  .then(d => data = d);
 
+const element = $(".test").append(data.entities.testfile1.title)
