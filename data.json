@@ -1,0 +1,14 @@
+{
+	"entities":{
+		"test-file1":{
+			"title":"Test file 1",
+			"description":"The first test file",
+			"class":"Test class"
+		}
+		"test-file2":{
+			"title":"Test file 2",
+			"description":"The second test file",
+			"class":"Test class"
+		}
+	}
+}
