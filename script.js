@@ -4,4 +4,6 @@ fetch('.data.json')
   .then(response => response.json())
   .then(d => data = d);
 
-const element = $(".test").append(data.entities.testfile1.title)
+let cardElement = "<p>" + data.entities.testfile1.title
+
+const element = $(".test").append(cardElement)
