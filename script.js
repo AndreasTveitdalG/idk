@@ -7,5 +7,5 @@ fetch('https://api.github.com/repos/AndreasTveitdalG/idk/contents/data.json')
 
     let cardElement = `<div class="card"><p><b>${data.entities.testfile1.title}</b><br>${data.entities.testfile1.description}<br><i>${data.entities.testfile1.class}</i></p></div>`;
 
-    const element = $(".test").append(cardElement);
+    const element = $(".cards").append(cardElement);
   });
