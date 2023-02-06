@@ -3,12 +3,14 @@
 		"testfile1":{
 			"title":"Test file 1",
 			"description":"The first test file",
-			"class":"Test class"
+			"class":"Test class",
+			"link:"https://docs.google.com/document/d/1aUoLpA7SA3yiswcyTJp3ITAa1F6eKI2kXwcSBA1gevo"
 		},
 		"testfile2":{
 			"title":"Test file 2",
 			"description":"The second test file",
-			"class":"Test class"
+			"class":"Test class",
+			"link":"https://docs.google.com/document/d/1aUoLpA7SA3yiswcyTJp3ITAa1F6eKI2kXwcSBA1gevo"
 		}
 	}
 }
