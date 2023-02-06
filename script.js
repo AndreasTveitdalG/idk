@@ -1,6 +1,6 @@
 let data;
 
-fetch('https://github.com/AndreasTveitdalG/idk/blob/main/data.json')
+fetch('https://andreastveitdalg.github.io/idk/data.json')
   .then(response => response.json())
   .then(d => data = d);
 
