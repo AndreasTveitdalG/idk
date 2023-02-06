@@ -5,7 +5,7 @@ fetch('https://api.github.com/repos/AndreasTveitdalG/idk/contents/data.json')
   .then(responseData => {
     data = JSON.parse(atob(responseData.content));
 
-    let cardElement = `<p>${data.entities.testfile1.title}<br>${data.entities.testfile1.description}<br>${data.entities.testfile1.class}</p>`;
+    let cardElement = `<p><b>${data.entities.testfile1.title}</b><br>${data.entities.testfile1.description}<br><i>${data.entities.testfile1.class}</i></p>`;
 
     const element = $(".test").append(cardElement);
   });
