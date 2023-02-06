@@ -7,6 +7,6 @@ fetch('https://api.github.com/repos/AndreasTveitdalG/idk/contents/data.json')
     console.log(data.entities.testfile1.title);
   });
 
-let cardElement = "<p>" + data.entities.testfile1.title
+let cardElement = "<p>" + data.entities.testfile1.title;
 
-const element = $(".test").append(cardElement)
+const element = $(".test").append(cardElement);
