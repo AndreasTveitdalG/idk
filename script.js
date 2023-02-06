@@ -1,8 +1,11 @@
 let data;
 
-fetch('https://andreastveitdalg.github.io/idk/data.json')
+fetch('https://api.github.com/repos/AndreasTveitdalG/idk/contents/data.json')
   .then(response => response.json())
-  .then(d => data = d);
+  .then(responseData => {
+    data = JSON.parse(atob(responseData.content));
+    console.log(data.entities.testfile1.title);
+  });
 
 let cardElement = "<p>" + data.entities.testfile1.title
 
