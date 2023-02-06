@@ -1,1 +1,10 @@
 
+.cards {
+  background-color: grey;
+}
+
+.card {
+  margin: auto;
+  width: 50%;
+  background-color: white;
+}
