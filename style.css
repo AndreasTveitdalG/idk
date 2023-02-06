@@ -1,10 +1,11 @@
 
-.cards {
-  background-color: grey;
+.body {
+  background-color: light grey;
 }
 
 .card {
   margin: auto;
   width: 50%;
   background-color: white;
+  padding: 10%;
 }
