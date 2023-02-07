@@ -8,7 +8,10 @@ fetch('https://api.github.com/repos/AndreasTveitdalG/idk/contents/data.json')
     let cardElement = `
       <div class="card">
         <p>
-          <span class="cardTitle">${data.entities.testfile1.title}</span>
+          <span class="cardTitle">
+            <a href="${data.entities.testfile1.link}">
+              ${data.entities.testfile1.title}
+          </a></span>
           <span class="cardClass">${data.entities.testfile1.class}</span><br>
           <span class="cardDescription">${data.entities.testfile1.description}</span>
        </p></div>`;
