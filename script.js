@@ -17,4 +17,4 @@ fetch('https://api.github.com/repos/AndreasTveitdalG/idk/contents/data.json')
        </p></div>`;
 
     const element = $(".cards").append(cardElement);
-  });
+});
