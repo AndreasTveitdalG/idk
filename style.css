@@ -1,9 +1,12 @@
-
 :root {
-  --cardBackgroundColor: dimgrey;
-  --pageBackgroundColor: black;
-  --cardTextColor: #202020;
+  --cardBackgroundColor: black;
+  --pageBackgroundColor: #161617;
+  --cardTextColor: #fff;
+  --cardTextColorHover: #D2738A;
+  --cardTextColorActive: #4c4748;
+  --cardTextColorMark: #D2738A;
 }
+
 body {
   background-color: var(--pageBackgroundColor);
   font-family: Helvetica;
@@ -67,6 +70,25 @@ body {
   float: none;
 }
 
-a {
+a, a:visited {
   all: inherit;
+  transition-property: color;
+  transition-duration: .4s;
+  transition-timing-function: ease-out;
+}
+
+a:hover {
+  all: inherit;
+  transition-property: color;
+  transition-duration: .4s;
+  transition-timing-function: ease-out;
+  color: var(--cardTextColorHover);
+}
+
+a:active {
+  all: inherit;
+  transition-property: color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  color: var(--cardTextColorActive);
 }
