@@ -1,16 +1,22 @@
 {
 	"entities":{
 		"file0":{
-			"title":"Notater til temaet protagonist og antagonist",
-			"description":"Notes for the Norwegian class theme of protagonist og antagonist",
+			"title":"Notater til protagonist og antagonist",
+			"description":"Notes for protagonist og antagonist",
 			"class":"Norwegian class",
 			"link":"https://docs.google.com/document/d/1aUoLpA7SA3yiswcyTJp3ITAa1F6eKI2kXwcSBA1gevo"
 		},
 		"file1":{
-			"title":"Test file 2",
-			"description":"The second test file",
-			"class":"Test class",
-			"link":"https://docs.google.com/document/d/1aUoLpA7SA3yiswcyTJp3ITAa1F6eKI2kXwcSBA1gevo"
+			"title":"Microplastics report",
+			"description":"Microplastics science report",
+			"class":"Sciences",
+			"link":"https://docs.google.com/document/d/1PX4wOBlPn1lg1LhbQ2ANPd2lcWASmMBOVQojtrKQ1Io"
+		},
+		"file2":{
+			"title":"War Poets",
+			"description":"Comparison of war poems",
+			"class":"English",
+			"link":"https://docs.google.com/document/d/12iia-ye7BILQiUNyQN34eB8M8UIVJq0nJAB8x3HE-c0"
 		}
 	}
 }
